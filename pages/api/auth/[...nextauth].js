@@ -4,7 +4,7 @@ import SpotifyProvider from "next-auth/providers/spotify";
 const YOUR_SPOTIFY_CLIENT_ID = "5a881e05966b46e6a834390e80c37713";
 const YOUR_SPOTIFY_CLIENT_SECRET = "b7434e52d7914cc6ba2cefc7192a0707";
 
-const REDIRECT_URI = "http://localhost:3000/api/auth/callback/spotify";
+const REDIRECT_URI = "http://134.209.158.118:3000/api/auth/callback/spotify";
 const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
 const RESPONSE_TYPE = "token";
 
